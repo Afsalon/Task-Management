@@ -1,24 +1,24 @@
 # Task-Management
-Comment, Document, Task, User are the 4 models 
-Task : Create, Read, Update, Delete (API VIEWS)
-Document : Create, Get (API VIEWS) 
-Comment : Create, Get (API Views)
-User : Login, User Registration 
+Comment, Document, Task, User are the 4 models <br/>
+Task : Create, Read, Update, Delete (API VIEWS)<br/>
+Document : Create, Get (API VIEWS) <br/>
+Comment : Create, Get (API Views)<br/>
+User : Login, User Registration <br/>
 
-Email using Smtp, used .env to hide private data. 
-used jwt authentication
+Email using Smtp, used .env to hide private data. <br/>
+used jwt authentication<br/>
 
 
-Front End: 
-Login Page 
-Sigup Page 
-Tasks Page 
-Detail Page
+Front End: <br/>
+Login Page <br/>
+Sigup Page <br/>
+Tasks Page <br/>
+Detail Page<br/>
 
-7 components witin pages 
-9 services 
-css plain 
-state management : usereduced and useContext (some useState)
+7 components within pages 
+9 services <br/>
+css plain <br/>
+state management : usereducer and useContext (some useState)<br/>
 
 Login Page:
 
