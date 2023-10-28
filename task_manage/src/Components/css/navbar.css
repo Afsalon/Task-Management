@@ -1,0 +1,42 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: #00140d;
+}
+
+.navbar-logo {
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.navbar-right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nr-h,
+.nr-t {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+    font-family: "Lato";
+}
+
+.nr-t {
+    cursor: pointer;
+}
+
+.nr-h {
+    margin-right: 4rem
+}

@@ -1,0 +1,196 @@
+.task-bg {
+    width: 80vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.task {
+    width: 60vw;
+    min-height: 15vw;
+    /* background-color: white; */
+    background-color: #102a42;
+    border-radius: 15px;
+    margin: 0;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+
+}
+
+.task:hover {
+    transform: scale(1.1);
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.task-line1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-priority {
+    color: black;
+    background-color: #ca2c92;
+    border-radius: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 1.5rem;
+    right: 1rem;
+}
+
+.task-status {
+    font-size: 1.5rem;
+    font-family: 'Genos', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    padding: 1rem 1rem;
+    background-color: #fccb06;
+    border-radius: 3px;
+}
+
+.task-line2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-title {
+    font-size: 2vw;
+    font-family: 'Genos', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+.task-line3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Genos', sans-serif;
+
+}
+
+.task-user {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 900;
+    padding: 1rem 1rem;
+    background-color: #cbe5ff;
+    color: black;
+    position: relative;
+    right: 1rem;
+    top: 1rem;
+    border-radius: 15px;
+}
+
+.task-date {
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.task-deadline {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 900;
+    padding: 1rem 1rem;
+    color: grey;
+}
+
+.addTaskButton {
+    width: 300px;
+    min-height: 30px;
+    font-family: 'Genos', sans-serif;
+    font-size: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.task-form {
+    margin-top: 2rem;
+}
+
+.submit-task {
+    width: 15rem;
+    min-height: 2.2rem;
+    font-family: 'Genos', sans-serif;
+    font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color: #102a42;
+    color: white;
+    border: 1px solid #102a42;
+}
+
+.form-user {
+    width: 5rem;
+    height: 2rem;
+    font-family: 'Genos', sans-serif;
+}
+
+.form-title {
+    width: 15rem;
+    height: 2rem;
+    font-family: 'Genos', sans-serif;
+}
+
+.form-description {
+    width: 15rem;
+    height: 2rem;
+    font-family: 'Genos', sans-serif;
+}
+
+.form-priority {
+    width: 5rem;
+    height: 2.3rem;
+    font-size: 1rem;
+    font-family: 'Genos', sans-serif;
+}
+
+.form-status {
+    width: 5rem;
+    height: 2.3rem;
+    font-family: 'Genos', sans-serif;
+}
+
+.form-deadline {
+    width: 5rem;
+    height: 2rem;
+}
+
+@media screen and (max-width:800px) {
+    .task-title {
+        font-size: 4vw;
+    }
+
+    .task-status {
+        font-size: 3vw;
+    }
+
+    .task-user {
+        font-size: 2vw;
+    }
+
+    .task-date {
+        font-size: 2.2vw;
+    }
+
+    .task-deadline {
+        font-size: 2.5vw;
+        padding: 1rem 1rem;
+
+    }
+}
